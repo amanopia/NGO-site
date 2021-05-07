@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- BOOTSTRAP CSS LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!-- BOOTSTRAP JAVASCRIPT LINK -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  <!-- CUSTOM CSS LINK -->
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title></title>
+</head>
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Raksha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Whom we help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- FIRST SECTION -->
+  <section>
+    <div class="row">
+      <div class="first-div container container-fluid col-lg-6">
+        <strong>
+          <p class="first-heading">A world where no child sleeps hungry.</p>
+        </strong>
+        <p class="first-text">Everyday three thousand children in India die due to malnutrition related diseases and you can help. </p>
+
+        <button class="donate-button btn btn-dark" type="button">Donate Now</button>
+        <button class="discover-button btn btn-light" type="button">Discover &nbsp&nbsp<img src="https://img.icons8.com/ios-glyphs/18/2b2b2b/arrow.png" /></button>
+      </div>
+
+      <div style="position:relative;" class="container contaienr-fluid col-lg-6">
+        <img class="image1 shadow" src="kid1.jpeg" alt="1" />
+        <img class="image2 shadow" src="kid2.jpeg" alt="2" />
+        <img class="image3 " src="kid3.jpeg" alt="3" />
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATION OPTIONS -->
+  <div class="donation-options">
+
+    <div class="container-fluid">
+
+      <div class="cards row">
+
+        <!-- REMOVE TEXT-MUTED FROM H6-->
+        <!-- CARD-1 -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img class="icon" src="https://img.icons8.com/ios/50/000000/bread-and-rye.png"/>
+            <h6 class="card-subtitle mb-2 ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <!-- CARD-2 -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img class="icon" src="https://img.icons8.com/ios/50/000000/book-stack.png"/>
+            <h6 class="card-subtitle mb-2 ">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <!-- CARD-3 -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img class="icon" src="https://img.icons8.com/ios/50/000000/water.png"/>
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <!-- CARD-4 -->
+        <div class="card" style="width: 18rem;">
+          <div style="border:none"class="card-body">
+            <img class="icon" src="https://img.icons8.com/ios/50/000000/medical-id.png"/>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

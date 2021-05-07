@@ -1,0 +1,87 @@
+/* NAVIGATION BAR */
+.navbar {
+  padding: 1em;
+}
+.navbar-brand {
+  font-family: "Cocogoose-demiBold";
+  font-size: 26px;
+  padding-right: 20px;
+}
+.nav-item {
+  padding: 0 15px 0 0;
+}
+.nav-link {
+  font-family: "Cocogoose-Light";
+  font-size: 13px;
+}
+.d-flex > input, .d-flex > button {
+  font-size: 13px;
+}
+
+/* FIRST SECTION */
+.first-heading {
+  display: inline-block;
+  position: relative;
+  font-size: 4em;
+  font-family: "Made Saonara";
+  line-height: 1.3em;
+  margin: 0 0 0.8em 0;
+}
+
+.row {
+  padding: 6em 4em;
+  margin: 0;
+}
+.donate-button {
+  font-family: "Cocogoose-Light";
+  font-size: 13px;
+  padding: 10px;
+  margin: 2em 0 0 0 ;
+}
+.discover-button {
+  font-family: "Cocogoose-Light";
+  font-size: 13px;
+  padding: 10px;
+  margin: 2em 0 0 1em ;
+}
+
+/* IMAGES */
+.image1 {
+  clip-path: circle(38% at 50% 32.5%);
+  position: relative;
+  top: 5%;
+  left: 6%;
+  width: 45%;
+
+}
+.image2 {
+  clip-path: circle(38% at 50% 57%);
+  position: relative;
+  top: 34%;
+  right: 20%;
+  width: 50%;
+}
+.image3 {
+  clip-path: circle(38% at 65% 49%);
+  position: absolute;
+  top: 10%;
+  right:12%;
+  width: 65%;
+}
+.shadow {
+  filter: drop-shadow(6px 12px 50px -10px rgba(0,0,0,0.67));
+}
+/* SHADOW NOT WORKING */
+
+/* DONATION OPTIONS */
+.cards {
+  padding: 7em 4em;
+}
+.card {
+  border: none;
+  font-family: "Made Saonara"
+}
+
+.icon {
+  margin: 0 0 1em 0;
+}
