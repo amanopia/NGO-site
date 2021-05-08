@@ -3,7 +3,7 @@
   padding: 1em;
 }
 .navbar-brand {
-  font-family: "Cocogoose-demiBold";
+  font-family: "Cocogoose-demiBold", "Montserrat Alternates";
   font-size: 26px;
   padding-right: 20px;
 }
@@ -11,7 +11,7 @@
   padding: 0 15px 0 0;
 }
 .nav-link {
-  font-family: "Cocogoose-Light";
+  font-family: "Cocogoose-Light","Montserrat Alternates";
   font-size: 13px;
 }
 .d-flex > input, .d-flex > button {
@@ -23,12 +23,13 @@
   display: inline-block;
   position: relative;
   font-size: 4em;
-  font-family: "Made Saonara";
+  font-family: "Made Saonara", "DM Serif Display";
   line-height: 1.3em;
   margin: 0 0 0.8em 0;
 }
 .highlight-1 {
-  background: url("/Users/amanverma/Desktop/NGO/images/brush.png");
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/brush.png"); */
+  background-image: url('/NGO-site/images/brush.png');
   background-repeat: no-repeat;
   background-size: 70% 50%;
   padding: 8px 0;
@@ -38,14 +39,19 @@
   padding: 6em 4em;
   margin: 0;
 }
+.first-text {
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
+  /* font-weight: 600; */
+  font-size: 14px;
+}
 .donate-button {
-  font-family: "Cocogoose-Light";
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
   font-size: 13px;
   padding: 10px;
   margin: 2em 0 0 0 ;
 }
 .discover-button {
-  font-family: "Cocogoose-Light";
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
   font-size: 13px;
   padding: 10px;
   margin: 2em 0 0 1em ;
@@ -98,10 +104,10 @@
   margin: 0 0 1.5em 0;
 }
 .card-subtitle{
-  font-family: "Made Saonara";
+  font-family: "Made Saonara", "DM Serif Display";
 }
 .card-text {
-  font-family: "Cocogoose-Light";
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
   font-size: 13px;
   line-height: 2em;
   padding: 10px 0 0 0;
@@ -142,16 +148,17 @@
 .second-heading {
   display: inline-block;
   text-align: right;
-  font-family: "Made Saonara";
+  font-family: "Made Saonara", "DM Serif Display";
   font-size: 3em;
   line-height: 1.3;
   margin: 0 0 0.8em 0;
 }
 .highlight-2 {
-  background: url('/Users/amanverma/Desktop/NGO/images/stroke1.png');
+  /* background-image: url('/Users/amanverma/Desktop/NGO/images/stroke1.png'); */
+  background-image: url('/NGO-site/images/stroke1.png');
   background-repeat: no-repeat;
   background-size: 120% 120%;
-  padding: 0px 0;
+  padding: 0 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -162,7 +169,8 @@
     padding: 0 0 3em 0;
   }
   .highlight-2 {
-    background: url('/Users/amanverma/Desktop/NGO/images/stroke1.png');
+    /* background-image: url('/Users/amanverma/Desktop/NGO/images/stroke1.png'); */
+    background-image: url('/NGO-site/images/stroke1.png');
     background-repeat: no-repeat;
     background-size: 130% 160%;
     padding: 8px 0;
@@ -170,14 +178,14 @@
 }
 
 .second-text {
-  font-family: "Cocogoose-Light";
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
   text-align: right;
   font-size: 13px;
   line-height: 2em;
   margin: 0 0 2.8em 0;
 }
 .about-us-button {
-  font-family: "Cocogoose-Light";
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
   font-size: 13px;
   padding: 10px;
   margin: 2em 1em 0 0 ;
