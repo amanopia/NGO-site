@@ -190,27 +190,32 @@
   padding: 10px;
   margin: 2em 1em 0 0 ;
 }
-
+/* STORIES/ TESTIMONIALS */
+.third-container {
+padding: 0 1.8% 0 auto;
+}
 /* STORIES / THIRD SECTION */
+
+.third-heading-container {
+  padding-bottom:0;
+}
 .third-heading {
   display: inline-block;
   font-family: "Made Saonara", "DM Serif Display";
   font-size: 3em;
   line-height: 1.3;
-  margin: 0 0 0.9em 0;
-  padding: 60px 0 ;
+  /* margin-left: 8%; */
 }
-.row-1 {
-  padding: 0 96px;
-}
+
 .highlight-3 {
-  background-image: url("/Users/amanverma/Desktop/NGO/images/stroke2.png");
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/brush.png"); */
+  background-image: url('/NGO-site/images/brush.png');
   background-repeat: no-repeat;
-  background-size: 130% 160%;
+  background-size: 80% 160%;
   padding: 8px 0;
 }
-.card-stories {
-  padding: 20px 0 20px 96px;;
+.card {
+  padding-bottom: 70px;
 }
 .card-body{
   padding-left: 0;
@@ -218,13 +223,40 @@
 .name  {
   margin-top: 10px;
   margin-bottom: 0;
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
+  font-size: 13px;
 }
 .age {
   margin: 0 0 16px 0;
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
+  font-size: 13px;
+}
+.card-text {
+  font-family: "Cocogoose-Light", "Montserrat Alternates";
+  font-size: 13px;
+}
+.links {
+  position: relative;
+  padding: 30px 0;
 }
 .card-link {
+  text-decoration-style: underline;
   text-decoration-thickness: 0.3em;
+  text-underline-offset: 4px;
+  /* text-decoration-offset: 2px; */
+  /* text-decoration-thickness: 0.3em;
   text-underline-offset: -2px;
   text-decoration-skip-link: auto;
+  text-decoration-style: wavy; */
   color: black;
+  position: absolute;
+  bottom: 5px;
+}
+
+.card-link:hover {
+  color: #2F2F2F;
+  text-decoration-thickness: 3em;
+  text-decoration-style: underline;
+  text-underline-offset: 10px;
+  transition: transform all 0.2s;
 }
