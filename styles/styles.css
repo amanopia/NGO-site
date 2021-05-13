@@ -208,10 +208,10 @@ padding: 0 1.8% 0 auto;
 }
 
 .highlight-3 {
-  /* background-image: url("/Users/amanverma/Desktop/NGO/images/brush.png"); */
-  background-image: url('/NGO-site/images/brush.png');
+  background-image: url("/Users/amanverma/Desktop/NGO/images/brush.png");
+  /* background-image: url('/NGO-site/images/brush.png'); */
   background-repeat: no-repeat;
-  background-size: 80% 160%;
+  background-size: 40% 90%;
   padding: 8px 0;
 }
 .card {
@@ -240,23 +240,33 @@ padding: 0 1.8% 0 auto;
   padding: 30px 0;
 }
 .card-link {
-  text-decoration-style: underline;
-  text-decoration-thickness: 0.3em;
-  text-underline-offset: 4px;
-  /* text-decoration-offset: 2px; */
-  /* text-decoration-thickness: 0.3em;
-  text-underline-offset: -2px;
-  text-decoration-skip-link: auto;
-  text-decoration-style: wavy; */
+  text-decoration: none;
   color: black;
   position: absolute;
   bottom: 5px;
 }
 
-.card-link:hover {
-  color: #2F2F2F;
-  text-decoration-thickness: 3em;
-  text-decoration-style: underline;
-  text-underline-offset: 10px;
-  transition: transform all 0.2s;
+.card-link-animation {
+  color: #2f2f2f;
+}
+.card-link-animation:hover {
+  color:black;
+}
+
+.card-link-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.4em;
+  bottom: -5px;
+  left: 0;
+  color: black;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.card-link-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
