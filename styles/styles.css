@@ -100,6 +100,12 @@
   border: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .cards .card-body {
+    width: 16rem;
+  }
+}
+
 .icon {
   margin: 0 0 1.5em 0;
 }
@@ -112,38 +118,6 @@
   line-height: 2em;
   padding: 10px 0 0 0;
 }
-
-/* SECOND SECTION */
-/* .img1 {
-  position: absolute;
-  width:60%;
-  top: 90%;
-  right: 10%;
-  clip-path: inset(5% 7% 0% 25%);
-  z-index: 1;
-
-}
-.img2 {
-  position: absolute;
-  top: 0;
-  width:60%;
-  right: 20%;
-  clip-path: inset(2% 12% 0% 22%);
-  z-index: -1;
-}
-.img3 {
-  position: absolute;
-  width:50%;
-  right: 52.8%;
-  top: 105%;
-  clip-path: inset(5% 9% 0% 25%);
-}
-.img4 {
-  position: absolute;
-  clip-path: inset(5% 7% 0% 30%);
-  width:60%;
-  right: 60%;
-} */
 
 .second-heading {
   display: inline-block;
@@ -190,10 +164,7 @@
   padding: 10px;
   margin: 2em 1em 0 0 ;
 }
-/* STORIES/ TESTIMONIALS */
-.third-container {
-padding: 0 1.8% 0 auto;
-}
+
 /* STORIES / THIRD SECTION */
 
 .third-heading-container {
