@@ -186,8 +186,8 @@ h4 {
 }
 
 .highlight-3 {
-  background-image: url("/Users/amanverma/Desktop/NGO/images/brush.png");
-  /* background-image: url('/NGO-site/images/brush.png'); */
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/brush.png"); */
+  background-image: url('/NGO-site/images/brush.png');
   background-repeat: no-repeat;
   background-size: 40% 90%;
   padding: 8px 0;
@@ -272,4 +272,33 @@ h4 {
     height: 100%;
     width: 130%;
   }
+}
+
+.circle1 {
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/circle1.png"); */
+  background-image: url('/NGO-site/images/circle1.png');
+  background-repeat:no-repeat;
+  background-size: 60% 100%;
+  padding: 8px 0;
+}
+.circle2 {
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/circle2.png"); */
+  background-image: url('/NGO-site/images/circle2.png');
+  background-repeat:no-repeat;
+  background-size: 85% 100%;
+  padding: 8px 0;
+}
+.circle3 {
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/circle3.png"); */
+  background-image: url('/NGO-site/images/circle3.png');
+  background-repeat:no-repeat;
+  background-size: 80% 100%;
+  padding: 8px 0;
+}
+.circle4 {
+  /* background-image: url("/Users/amanverma/Desktop/NGO/images/circle4.png"); */
+  background-image: url('/NGO-site/images/circle4.png');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  padding: 8px 0;
 }
